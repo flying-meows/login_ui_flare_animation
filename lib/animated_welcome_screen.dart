@@ -24,7 +24,7 @@ class _LoginUIState extends State<LoginUI> {
       body: Stack(
         children: <Widget>[
           Container(
-            margin: EdgeInsets.only(top: h / 15),
+            // margin: EdgeInsets.only(top: h / 15),
             height: h / 1.2,
             width: w,
             child: RotatedBox(
@@ -122,7 +122,7 @@ class _LoginUIState extends State<LoginUI> {
                               Navigator.of(context).push(
                                 MaterialPageRoute(
                                   builder: (context) {
-                                    // return SignUp();
+                                    return SignUp();
                                   },
                                 ),
                               );
@@ -288,10 +288,11 @@ class _SignUpState extends State<SignUp> {
                             });
 
                             print("${dates.day}-${dates.month}-${dates.year}");
-                            //                 key.currentState.showSnackBar(new SnackBar(
-                            //                   duration: Duration(seconds: 3),
-                            //   content: new Text("Your date is : ${dates.day}-${dates.month}-${dates.year}"),
-                            // ));
+                            key.currentState.showSnackBar(new SnackBar(
+                              duration: Duration(seconds: 3),
+                              content: new Text(
+                                  "Your date is : ${dates.day}-${dates.month}-${dates.year}"),
+                            ));
                           },
                               currentTime: DateTime.now(),
                               locale: LocaleType.en);

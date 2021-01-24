@@ -1,5 +1,7 @@
 # login_ui_flare_animation
 
+<img src="login_ui_flare_animation.gif" width="200"/>
+
 Reference tutorials  
 
 • Flutter Login UI with Animation 2020  
