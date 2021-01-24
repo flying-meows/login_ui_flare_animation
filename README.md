@@ -1,6 +1,11 @@
 # login_ui_flare_animation
 
-A new Flutter project.
+Reference tutorials  
+
+• Flutter Login UI with Animation 2020  
+<https://www.youtube.com/watch?v=PFUrGUweEow>  
+• Github  
+<https://github.com/rishabhdavesar/ui/blob/master/lib/screen/loginUI.dart>  
 
 ## Getting Started
 
